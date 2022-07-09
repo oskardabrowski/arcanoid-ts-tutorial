@@ -1,3 +1,5 @@
 import { Vector } from "~/types";
 
-export class Paddle {}
+export class Paddle {
+    private paddleImage: HTMLImageElement = new Image();
+}
